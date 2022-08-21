@@ -31,7 +31,7 @@
 
 /* Begin PBXFileReference section */
 		01ABC9E8F65CFF90775157CF1A3D0964 /* JPSVolumeButtonHandler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JPSVolumeButtonHandler-dummy.m"; sourceTree = "<group>"; };
-		1291E820F6ED8F0E93FB4421D7FA1B07 /* JPSVolumeButtonHandler */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JPSVolumeButtonHandler; path = JPSVolumeButtonHandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1291E820F6ED8F0E93FB4421D7FA1B07 /* JPSVolumeButtonHandler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JPSVolumeButtonHandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		16FED54D6D142F108625E40BA4D10A10 /* Pods-Dex.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Dex.modulemap"; sourceTree = "<group>"; };
 		1B8EE1A5EAF24543ED345CBD5AAE13BF /* JPSVolumeButtonHandler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JPSVolumeButtonHandler.debug.xcconfig; sourceTree = "<group>"; };
 		24FAEAB2BC488DCB007D4C69FF7CCFFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -42,11 +42,11 @@
 		55274D536E89364294E6DC4B018D2BA2 /* Pods-Dex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Dex.debug.xcconfig"; sourceTree = "<group>"; };
 		6DB50E1C2124027E3812EDCD79202AB4 /* Pods-Dex-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Dex-dummy.m"; sourceTree = "<group>"; };
 		734CAE83162306FB40D052C94582BAC1 /* JPSVolumeButtonHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPSVolumeButtonHandler.h; path = JPSVolumeButtonHandler/JPSVolumeButtonHandler.h; sourceTree = "<group>"; };
-		811D89BCCCC0E2EAEFB7135DB3F720A7 /* Pods-Dex */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Dex"; path = Pods_Dex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		811D89BCCCC0E2EAEFB7135DB3F720A7 /* Pods_Dex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A73BE7A1CE4DCE9155E747C80E0ED8F /* Pods-Dex-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Dex-umbrella.h"; sourceTree = "<group>"; };
 		9563832A625237979195B09A5A598C08 /* JPSVolumeButtonHandler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JPSVolumeButtonHandler-umbrella.h"; sourceTree = "<group>"; };
 		9BAC7634D6A98B00B327909DD776DBE0 /* Pods-Dex-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Dex-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A4412D947E2BD0910003E8A367F9D540 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
 		AAD18D93F56F220C882AC3DC9A4D0338 /* Pods-Dex-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Dex-Info.plist"; sourceTree = "<group>"; };
 		BCE0A5611AA8F83D18E68584DB82109D /* JPSVolumeButtonHandler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JPSVolumeButtonHandler.release.xcconfig; sourceTree = "<group>"; };
@@ -107,8 +107,8 @@
 		114C918AB7A15D4431DBE25AC3578AF7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1291E820F6ED8F0E93FB4421D7FA1B07 /* JPSVolumeButtonHandler */,
-				811D89BCCCC0E2EAEFB7135DB3F720A7 /* Pods-Dex */,
+				1291E820F6ED8F0E93FB4421D7FA1B07 /* JPSVolumeButtonHandler.framework */,
+				811D89BCCCC0E2EAEFB7135DB3F720A7 /* Pods_Dex.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,7 +120,6 @@
 				3D63819ACF536F07CC44083B5B7B7241 /* JPSVolumeButtonHandler.m */,
 				BD421F04D57DC934A44E431DAFA717D7 /* Support Files */,
 			);
-			name = JPSVolumeButtonHandler;
 			path = JPSVolumeButtonHandler;
 			sourceTree = "<group>";
 		};
@@ -213,7 +212,7 @@
 			);
 			name = JPSVolumeButtonHandler;
 			productName = JPSVolumeButtonHandler;
-			productReference = 1291E820F6ED8F0E93FB4421D7FA1B07 /* JPSVolumeButtonHandler */;
+			productReference = 1291E820F6ED8F0E93FB4421D7FA1B07 /* JPSVolumeButtonHandler.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		85BF416C788622AADE0710ACB485EE11 /* Pods-Dex */ = {
@@ -232,7 +231,7 @@
 			);
 			name = "Pods-Dex";
 			productName = Pods_Dex;
-			productReference = 811D89BCCCC0E2EAEFB7135DB3F720A7 /* Pods-Dex */;
+			productReference = 811D89BCCCC0E2EAEFB7135DB3F720A7 /* Pods_Dex.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -242,7 +241,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1340;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 13.0";
@@ -363,7 +362,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -391,7 +390,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JPSVolumeButtonHandler/JPSVolumeButtonHandler-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JPSVolumeButtonHandler/JPSVolumeButtonHandler-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -425,7 +424,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Dex/Pods-Dex-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,7 +460,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JPSVolumeButtonHandler/JPSVolumeButtonHandler-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JPSVolumeButtonHandler/JPSVolumeButtonHandler-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -531,7 +530,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -558,7 +557,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Dex/Pods-Dex-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
